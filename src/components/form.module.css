@@ -1,0 +1,33 @@
+.todoForm{
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 0px 4px 5px rgb(0, 0, 0, 0.1);
+    
+}
+.myInput{
+    display: block;
+    width: 100%;
+    border: none;
+    color: black;
+    font-size: 17px;
+}
+.myInput:focus{
+    outline: none;
+}
+.myButton{
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    background-color: gold;
+    padding: 12px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.inputContainer{
+    display: flex;
+}
